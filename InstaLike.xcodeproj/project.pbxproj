@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		013629D519E3DDF100AC6164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629D419E3DDF100AC6164 /* AppDelegate.swift */; };
 		013629DA19E3DDF100AC6164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013629D819E3DDF100AC6164 /* Main.storyboard */; };
-		013629DC19E3DDF100AC6164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013629DB19E3DDF100AC6164 /* Images.xcassets */; };
 		013629DF19E3DDF100AC6164 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013629DD19E3DDF100AC6164 /* LaunchScreen.xib */; };
 		013629EB19E3DDF100AC6164 /* InstaLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629EA19E3DDF100AC6164 /* InstaLikeTests.swift */; };
 		013629F519E3DE3500AC6164 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629F419E3DE3500AC6164 /* ViewControllers.swift */; };
 		013629F719E3DE3E00AC6164 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629F619E3DE3E00AC6164 /* Models.swift */; };
 		013629F919E3DE4F00AC6164 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629F819E3DE4F00AC6164 /* Network.swift */; };
+		749CCA9C19E43DF10085AEC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749CCA9B19E43DF10085AEC9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 		013629D319E3DDF100AC6164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013629D419E3DDF100AC6164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		013629D919E3DDF100AC6164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		013629DB19E3DDF100AC6164 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		013629DE19E3DDF100AC6164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		013629E419E3DDF100AC6164 /* InstaLikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaLikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013629E919E3DDF100AC6164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		013629F419E3DE3500AC6164 /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
 		013629F619E3DE3E00AC6164 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		013629F819E3DE4F00AC6164 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		749CCA9B19E43DF10085AEC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				013629F419E3DE3500AC6164 /* ViewControllers.swift */,
 				013629F619E3DE3E00AC6164 /* Models.swift */,
 				013629F819E3DE4F00AC6164 /* Network.swift */,
-				013629DB19E3DDF100AC6164 /* Images.xcassets */,
+				749CCA9B19E43DF10085AEC9 /* Images.xcassets */,
 				013629DD19E3DDF100AC6164 /* LaunchScreen.xib */,
 				013629D219E3DDF100AC6164 /* Supporting Files */,
 			);
@@ -198,9 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749CCA9C19E43DF10085AEC9 /* Images.xcassets in Resources */,
 				013629DA19E3DDF100AC6164 /* Main.storyboard in Resources */,
 				013629DF19E3DDF100AC6164 /* LaunchScreen.xib in Resources */,
-				013629DC19E3DDF100AC6164 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +413,7 @@
 				013629F019E3DDF100AC6164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		013629F119E3DDF100AC6164 /* Build configuration list for PBXNativeTarget "InstaLikeTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				013629F319E3DDF100AC6164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
