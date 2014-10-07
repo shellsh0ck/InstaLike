@@ -14,6 +14,7 @@ class TagsCell: UITableViewCell {
     
     @IBOutlet var copyBtn: UIButton!
     @IBAction func copyBtn_Click() {
+        UIPasteboard.generalPasteboard().string = tagsLabel.text
         UIView.animateWithDuration(0.5, animations: {
             self.copyBtn.backgroundColor = UIColor(red: 255/255.0, green: 59/255.0, blue: 107/255.0, alpha: 1.0)
             self.copyBtn.setTitle("Copied!", forState: UIControlState.Normal)

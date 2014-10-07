@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "InstaLike/Models.swift"
-            timestampString = "434376362.914053"
+            timestampString = "434378007.15338"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "copyBtn_Click()"
             landmarkType = "5">
          </BreakpointContent>
