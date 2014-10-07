@@ -16,10 +16,10 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
         testFileSystem.Categories = [
             Category(title: "Love", image: "love", tagSets:
                 [
-                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
-                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
-                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
-                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
+                    TagsSet(tags: "#love #TagsForLikes #TFLers #tweegram #photooftheday #20likes #amazing #smile #follow4follow #like4like #look #instalike #igers #picoftheday #food #instadaily #instafollow #followme #girl #iphoneonly #instagood #bestoftheday #instacool #instago #all_shots #follow #webstagram #colorful #style #swag", title: "Love"),
+                    TagsSet(tags: "#love #TagsForLikes #photooftheday #me #instamood #cute #igers #picoftheday #girl #guy #beautiful #fashion #instagramers #follow #smile #pretty #followme #friends #hair #swag #photo #life #funny #cool #hot #bored #portrait #baby #girls #iphonesia", title: "Love"),
+                    TagsSet(tags: "#girl #girls #love #TagsForLikes #TFLers #me #cute #picoftheday #beautiful #photooftheday #instagood #fun #smile #pretty #follow #followme #hair #friends #swag #sexy #hot #cool #kik #fashion #igers #instagramers #style #sweet #eyes #beauty", title: "Love"),
+                    TagsSet(tags: "#love #couple #cute #adorable #TagsForLikes #kiss #kisses #hugs #romance #forever #girlfriend #boyfriend #gf #bf #bff #together #photooftheday #happy #me #girl #boy #beautiful #instagood #instalove #loveher #lovehim #pretty #fun #smile #xoxo", title: "Love"),
                     TagsSet(tags: "Allah, Allah, Allah", title: "Love")
                 ]
             ),
