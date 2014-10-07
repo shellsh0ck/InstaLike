@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+/* Basic class to store UIView elements for cell representing tags set */
 class TagsCell: UITableViewCell {
     @IBOutlet weak var tagsLabel: UILabel!
     
@@ -16,13 +16,17 @@ class TagsCell: UITableViewCell {
     }
     
 }
+/* end */
 
+/* Basic class to store UIView elements for cell representing category of tags */
 class CategoryCell: UICollectionViewCell {
     @IBOutlet weak var cellImage: UIImageView!
     @IBOutlet weak var cellTitle: UILabel!
 
 }
+/* end */
 
+/* Bacis class describing Set of tags, consist of Tags {written separated by "," symbol} (String) and Title (String) */
 class TagsSet {
     var Tags: String
     var Title: String
@@ -32,7 +36,9 @@ class TagsSet {
         self.Title = title
     }
 }
+/* end */
 
+/* Bacis class describing Category, containing: Title (String), Image { which is used as a base of UIImage further } (String) and array of sets of tags (TagsSet) */
 class Category {
     var Title: String
     var Image: String
@@ -44,7 +50,9 @@ class Category {
         self.TagSets = [TagsSet]()
     }
 }
+/* end */
 
+/* Root class to interact with  data model. Consist of categories array (Category) */
 class FileSystem {
     var Categories: [Category]
     
@@ -54,6 +62,9 @@ class FileSystem {
     
     
 }
+/* end */
 
+/* Test zone, testing UI without JSON data */
 
 var testFileSystem = FileSystem()
+/* end */

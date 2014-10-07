@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B962047C-736D-4100-AD6B-EFC44084CC47</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstaLike</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>885CF94721CFC416990F976677FE73A33682D7BA</key>
+		<string>https://github.com/shellsh0ck/InstaLike.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InstaLike.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>885CF94721CFC416990F976677FE73A33682D7BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shellsh0ck/InstaLike.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>885CF94721CFC416990F976677FE73A33682D7BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>885CF94721CFC416990F976677FE73A33682D7BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InstaLike</string>
+		</dict>
+	</array>
+</dict>
+</plist>

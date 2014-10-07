@@ -183,6 +183,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="headerImageView" destination="8MQ-N3-CIS" id="kPx-8P-nX3"/>
                         <outlet property="headerTitleLabel" destination="hAe-He-jZa" id="5Np-UG-1ub"/>
