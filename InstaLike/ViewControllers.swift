@@ -64,6 +64,12 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     @IBOutlet weak var headerImageView: UIImageView!
     @IBOutlet weak var headerTitleLabel: UILabel!
     @IBOutlet weak var tagsTableViewController: UITableView!
+    @IBOutlet weak var backBtn: UIButton!
+    
+    override func viewDidLoad() {
+        self.backBtn.layer.borderWidth = 0.8
+        self.backBtn.layer.borderColor = UIColor.whiteColor().CGColor
+    }
     
     var categoryTitle: String = ""
     
