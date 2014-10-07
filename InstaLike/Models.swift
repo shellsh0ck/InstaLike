@@ -16,7 +16,7 @@ class TagsCell: UITableViewCell {
     @IBAction func copyBtn_Click() {
         UIPasteboard.generalPasteboard().string = tagsLabel.text
         UIView.animateWithDuration(0.5, animations: {
-            self.copyBtn.backgroundColor = UIColor(red: 255/255.0, green: 59/255.0, blue: 107/255.0, alpha: 1.0)
+            self.copyBtn.backgroundColor = UIColor(red: 138/255.0, green: 61/255.0, blue: 139/255.0, alpha: 1.0)
             self.copyBtn.setTitle("Copied!", forState: UIControlState.Normal)
             self.copyBtn.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
             }, completion: {
@@ -24,7 +24,7 @@ class TagsCell: UITableViewCell {
                 UIView.animateWithDuration(0.5, animations: { () -> Void in
                     self.copyBtn.setTitle("Copy", forState: UIControlState.Normal)
                     self.copyBtn.backgroundColor = UIColor.clearColor()
-                    self.copyBtn.setTitleColor(UIColor(red: 255/255.0, green: 59/255.0, blue: 107/255.0, alpha: 1.0), forState: UIControlState.Normal)
+                    self.copyBtn.setTitleColor(UIColor(red: 138/255.0, green: 61/255.0, blue: 139/255.0, alpha: 1.0), forState: UIControlState.Normal)
                 })
         })
     }

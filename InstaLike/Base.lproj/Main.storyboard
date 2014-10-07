@@ -115,7 +115,7 @@
                                                     <rect key="frame" x="0.0" y="136" width="320" height="47"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                                     <state key="normal" title="Copy">
-                                                        <color key="titleColor" red="1" green="0.23137254901960785" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleColor" red="0.54117647059999996" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
