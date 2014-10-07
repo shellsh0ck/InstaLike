@@ -82,14 +82,14 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     
     override func viewWillAppear(animated: Bool) {
         loadDataModel()
-        dispatch_async(dispatch_get_main_queue(), {() -> Void in
-            self.headerImageView.image = UIImage(named: self.category!.Image)
-            self.headerTitleLabel.text = self.category!.Title
-        })
+//        dispatch_async(dispatch_get_main_queue(), {() -> Void in
+//            self.headerImageView.image = UIImage(named: self.category!.Image)
+//            self.headerTitleLabel.text = self.category!.Title
+//        })
     }
     
     func loadDataModel() {
-        self.category = testFileSystem.Categories.filter{$0.Title == self.categoryTitle}[0]
+         Network().getTagsForCategory(category: self.categoryTitle)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell! {
@@ -105,7 +105,13 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int
     {
-        return self.category!.TagSets.count
+        
+         if let result = self.category?.TagSets {
+            return result.count
+         }
+         else {
+            return 0
+        }
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
