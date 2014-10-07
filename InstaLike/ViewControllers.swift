@@ -84,6 +84,8 @@ class TagsViewController: UIViewController, UITableViewDelegate {
         var cellModel = category?.TagSets[indexPath.row]
         dispatch_async(dispatch_get_main_queue(), {() -> Void in
             cell.tagsLabel.text = cellModel?.Tags
+            cell.copyBtn.layer.borderWidth = 1.0
+            cell.copyBtn.layer.borderColor = (UIColor(red: 138/255.0, green: 61/255.0, blue: 139/255.0, alpha: 1.0)).CGColor
         })
         return cell
     }
