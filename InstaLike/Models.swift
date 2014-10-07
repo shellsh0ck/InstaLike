@@ -12,7 +12,20 @@ import UIKit
 class TagsCell: UITableViewCell {
     @IBOutlet weak var tagsLabel: UILabel!
     
+    @IBOutlet var copyBtn: UIButton!
     @IBAction func copyBtn_Click() {
+        UIView.animateWithDuration(0.5, animations: {
+            self.copyBtn.backgroundColor = UIColor(red: 255/255.0, green: 59/255.0, blue: 107/255.0, alpha: 1.0)
+            self.copyBtn.setTitle("Copied!", forState: UIControlState.Normal)
+            self.copyBtn.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+            }, completion: {
+                (value: Bool) in
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.copyBtn.setTitle("Copy", forState: UIControlState.Normal)
+                    self.copyBtn.backgroundColor = UIColor.clearColor()
+                    self.copyBtn.setTitleColor(UIColor(red: 255/255.0, green: 59/255.0, blue: 107/255.0, alpha: 1.0), forState: UIControlState.Normal)
+                })
+        })
     }
     
 }

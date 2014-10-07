@@ -16,7 +16,11 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
         testFileSystem.Categories = [
             Category(title: "Love", image: "love", tagSets:
                 [
-                TagsSet(tags: "Allah, Allah, Allah", title: "Love")
+                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
+                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
+                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
+                    TagsSet(tags: "Allah, Allah, Allah", title: "Love"),
+                    TagsSet(tags: "Allah, Allah, Allah", title: "Love")
                 ]
             ),
             Category(title: "Nature", image: "nature"),
@@ -46,6 +50,10 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
             var index = categoriesCollectionView.indexPathForCell(cell)
             vc.categoryTitle = testFileSystem.Categories[index!.row].Title
         }
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
     
 }
@@ -83,5 +91,9 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int
     {
         return self.category!.TagSets.count
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
 }
