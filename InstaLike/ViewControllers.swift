@@ -24,7 +24,9 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
                 ]
             ),
             Category(title: "Nature", image: "nature"),
-            Category(title: "Animals", image: "animals")
+            Category(title: "Animals", image: "animals"),
+            Category(title: "Candy", image: "candy"),
+            Category(title: "Food", image: "food")
         ]
     }
     
