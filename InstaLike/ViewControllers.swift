@@ -13,10 +13,23 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         testFileSystem.Categories = [
-            Category(title: "Top", image: "0"),
-            Category(title: "Nature", image: "0"),
-            Category(title: "Animals", image: "0")
+            Category(title: "Love", image: "love"),
+            Category(title: "Nature", image: "nature"),
+            Category(title: "Animals", image: "animals")
         ]
+    }
+    
+    func collectionView(collectionView: UICollectionView!, numberOfItemsInSection section: Int) -> Int
+    {
+        return testFileSystem.Categories.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        var cell = collectionView.dequeueReusableCellWithReuseIdentifier("categoryCell", forIndexPath: indexPath)as CategoryCell
+        var cellModel = testFileSystem.Categories[indexPath.row]
+        cell.cellImage.image = UIImage(named: cellModel.Image)
+        cell.cellTitle.text = cellModel.Title
+        return cell
     }
     
 }
