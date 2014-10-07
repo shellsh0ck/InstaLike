@@ -49,6 +49,12 @@ class Category {
         self.Image = image
         self.TagSets = [TagsSet]()
     }
+    
+    init(title: String, image: String, tagSets:[TagsSet]) {
+        self.Title = title
+        self.Image = image
+        self.TagSets = tagSets
+    }
 }
 /* end */
 
