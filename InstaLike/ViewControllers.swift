@@ -23,7 +23,7 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
             Category(title: "Holidays", image: "holidays"),
             Category(title: "Party", image: "party"),
             Category(title: "Family", image: "family"),
-            Category(title: "Monochrome ", image: "b&w"),
+            Category(title: "Monochrome", image: "b&w"),
             Category(title: "Urban", image: "urban"),
             Category(title: "Food", image: "food"),
             Category(title: "Drinks", image: "drinks"),
