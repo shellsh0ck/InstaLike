@@ -15,6 +15,7 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
         super.viewDidLoad()
         testFileSystem.Categories = [
             Category(title: "Nature", image: "nature"),
+            Category(title: "Love", image: "nature"),
             Category(title: "Weather", image: "weather"),
             Category(title: "Animals", image: "animals"),
             Category(title: "People", image: "people"),
@@ -83,6 +84,10 @@ class TagsViewController: UIViewController, UITableViewDelegate {
         
     }
     
+    override func viewDidAppear(animated: Bool) {
+        
+    }
+    
     var categoryTitle: String = ""
     
     var category: Category?
@@ -119,7 +124,7 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     
     
     func getTagsForCategory(#categoryTitlle: String) {
-        let URL = NSURL(string: "http://localhost:8888/TagsServer/getTags.php?category=\(categoryTitlle.lowercaseString)")
+        let URL = NSURL(string: "http://localhost:8888/TagsServer/getTags.php?category=\(categoryTitlle)")
         
         var TagsSets: [TagsSet] = [TagsSet]()
         var output = NSMutableArray()
@@ -132,8 +137,13 @@ class TagsViewController: UIViewController, UITableViewDelegate {
                 let dataObject = NSData(contentsOfURL: location)
                 let tagsSetsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(dataObject, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
                 self.category?.TagSets = self.jsonToCategory(tagsSetsDictionary) as [TagsSet]
-                self.tagsTableViewController.reloadData()
-                println("!")
+                
+                dispatch_async(dispatch_get_main_queue(), {() -> Void in
+                    println("Reloading data...")
+                    self.tagsTableViewController.reloadData()
+                    println("Done!")
+                })
+                println("Data has beem loaded")
                 
             }
             else {
