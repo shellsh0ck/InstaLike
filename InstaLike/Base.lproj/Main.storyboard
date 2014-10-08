@@ -34,10 +34,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="145" height="145"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Xt-hr-8UG">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Xt-hr-8UG">
                                                     <rect key="frame" x="0.0" y="0.0" width="145" height="145"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td1-dN-onU">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td1-dN-onU">
                                                     <rect key="frame" x="8" y="116" width="129" height="19"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,15 +46,6 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <constraints>
-                                            <constraint firstAttribute="bottomMargin" secondItem="Td1-dN-onU" secondAttribute="bottom" constant="2" id="0a8-Vu-zWc"/>
-                                            <constraint firstItem="5Xt-hr-8UG" firstAttribute="top" secondItem="9Xc-hw-eab" secondAttribute="top" id="DOi-Yn-7mK"/>
-                                            <constraint firstItem="Td1-dN-onU" firstAttribute="leading" secondItem="9Xc-hw-eab" secondAttribute="leadingMargin" id="F07-DT-Qd3"/>
-                                            <constraint firstItem="5Xt-hr-8UG" firstAttribute="leading" secondItem="9Xc-hw-eab" secondAttribute="leading" id="YUt-8e-MSV"/>
-                                            <constraint firstAttribute="trailing" secondItem="5Xt-hr-8UG" secondAttribute="trailing" id="YqJ-pu-aXm"/>
-                                            <constraint firstAttribute="bottom" secondItem="5Xt-hr-8UG" secondAttribute="bottom" id="ked-AF-SNu"/>
-                                            <constraint firstItem="5Xt-hr-8UG" firstAttribute="centerX" secondItem="Td1-dN-onU" secondAttribute="centerX" id="noo-kq-JOG"/>
-                                        </constraints>
                                         <connections>
                                             <outlet property="cellImage" destination="5Xt-hr-8UG" id="yJT-8D-qyJ"/>
                                             <outlet property="cellTitle" destination="Td1-dN-onU" id="GJg-Qt-xEK"/>
