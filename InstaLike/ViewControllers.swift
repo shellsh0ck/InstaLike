@@ -26,7 +26,6 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
             Category(title: "B&W", image: "b&w"),
             Category(title: "Urban", image: "urban"),
             Category(title: "Food", image: "food"),
-            Category(title: "Candy", image: "candy"),
             Category(title: "Drinks", image: "drinks"),
             Category(title: "Fashion", image: "fashion"),
             Category(title: "Music", image: "music"),
