@@ -138,11 +138,8 @@ class TagsViewController: UIViewController, UITableViewDelegate {
                 self.category?.TagSets = self.jsonToCategory(tagsSetsDictionary) as [TagsSet]
                 
                 dispatch_async(dispatch_get_main_queue(), {() -> Void in
-                    println("Reloading data...")
                     self.tagsTableViewController.reloadData()
-                    println("Done!")
                 })
-                println("Data has beem loaded")
                 
             }
             else {
@@ -150,14 +147,12 @@ class TagsViewController: UIViewController, UITableViewDelegate {
             }
         })
         downloadTask.resume()
-        println("Done")
         
     }
     
     func jsonToCategory(json: NSDictionary) -> AnyObject {
         var output: NSMutableArray = NSMutableArray()
         for item in json["result"]! as NSMutableArray {
-            println("New object: \n\(item)")
             output.addObject(TagsSet(tags: item["tags"] as String))
         }
         
