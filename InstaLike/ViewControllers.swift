@@ -17,6 +17,7 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
             Category(title: "Nature", image: "nature"),
             Category(title: "Love", image: "love"),
             Category(title: "Weather", image: "weather"),
+            Category(title: "Sport", image: "sport"),
             Category(title: "Animals", image: "animals"),
             Category(title: "People", image: "people"),
             Category(title: "Selfies", image: "selfie"),
@@ -28,8 +29,7 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
             Category(title: "Food", image: "food"),
             Category(title: "Drinks", image: "drinks"),
             Category(title: "Fashion", image: "fashion"),
-            Category(title: "Music", image: "music"),
-            Category(title: "Video Games", image: "game"),
+            Category(title: "Entertainment", image: "music"),
             Category(title: "Electronics", image: "electronics"),
             Category(title: "Travel", image: "travel")
         ]
