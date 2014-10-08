@@ -13,7 +13,6 @@
 		013629EB19E3DDF100AC6164 /* InstaLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629EA19E3DDF100AC6164 /* InstaLikeTests.swift */; };
 		013629F519E3DE3500AC6164 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629F419E3DE3500AC6164 /* ViewControllers.swift */; };
 		013629F719E3DE3E00AC6164 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629F619E3DE3E00AC6164 /* Models.swift */; };
-		013629F919E3DE4F00AC6164 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013629F819E3DE4F00AC6164 /* Network.swift */; };
 		749CCA9C19E43DF10085AEC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749CCA9B19E43DF10085AEC9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		013629EA19E3DDF100AC6164 /* InstaLikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaLikeTests.swift; sourceTree = "<group>"; };
 		013629F419E3DE3500AC6164 /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
 		013629F619E3DE3E00AC6164 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		013629F819E3DE4F00AC6164 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		749CCA9B19E43DF10085AEC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +83,6 @@
 				013629D819E3DDF100AC6164 /* Main.storyboard */,
 				013629F419E3DE3500AC6164 /* ViewControllers.swift */,
 				013629F619E3DE3E00AC6164 /* Models.swift */,
-				013629F819E3DE4F00AC6164 /* Network.swift */,
 				749CCA9B19E43DF10085AEC9 /* Images.xcassets */,
 				013629DD19E3DDF100AC6164 /* LaunchScreen.xib */,
 				013629D219E3DDF100AC6164 /* Supporting Files */,
@@ -220,7 +217,6 @@
 			files = (
 				013629F719E3DE3E00AC6164 /* Models.swift in Sources */,
 				013629F519E3DE3500AC6164 /* ViewControllers.swift in Sources */,
-				013629F919E3DE4F00AC6164 /* Network.swift in Sources */,
 				013629D519E3DDF100AC6164 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

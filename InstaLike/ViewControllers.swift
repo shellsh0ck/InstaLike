@@ -15,7 +15,7 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
         super.viewDidLoad()
         testFileSystem.Categories = [
             Category(title: "Nature", image: "nature"),
-            Category(title: "Love", image: "nature"),
+            Category(title: "Love", image: "love"),
             Category(title: "Weather", image: "weather"),
             Category(title: "Animals", image: "animals"),
             Category(title: "People", image: "people"),
@@ -124,7 +124,7 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     
     
     func getTagsForCategory(#categoryTitlle: String) {
-        let URL = NSURL(string: "http://localhost:8888/TagsServer/getTags.php?category=\(categoryTitlle)")
+        let URL = NSURL(string: "http://linstalike.azurewebsites.net/getTags.php?category=\(categoryTitlle)")
         
         var TagsSets: [TagsSet] = [TagsSet]()
         var output = NSMutableArray()
