@@ -43,11 +43,9 @@ class CategoryCell: UICollectionViewCell {
 /* Bacis class describing Set of tags, consist of Tags {written separated by "," symbol} (String) and Title (String) */
 class TagsSet {
     var Tags: String
-    var Title: String
     
-    init(tags: String, title:String) {
+    init(tags: String) {
         self.Tags = tags
-        self.Title = title
     }
 }
 /* end */

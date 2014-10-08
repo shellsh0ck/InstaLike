@@ -25,13 +25,77 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstaLike/Network.swift"
-            timestampString = "434391993.776608"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455179.589621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "getTagsForCategory(category:)"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "loadDataModel()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "loadDataModel()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +105,61 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstaLike/Network.swift"
-            timestampString = "434392005.576563"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "getTagsForCategory(category:)"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "getTagsForCategory(categoryTitlle:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,176 +169,62 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstaLike/Network.swift"
-            timestampString = "434392039.564106"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "getTagsForCategory(category:)"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "getTagsForCategory(categoryTitlle:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstaLike/Network.swift"
-            timestampString = "434393978.365532"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "getTagsForCategory(category:)"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "getTagsForCategory(categoryTitlle:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "InstaLike.Network.getTagsForCategory (InstaLike.Network)(category : Swift.String) -&gt; ()"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395096.075585"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "668">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "InstaLike.Network.(getTagsForCategory (InstaLike.Network) -&gt; (category : Swift.String) -&gt; ()).(closure #1)"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395096.075735"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "23">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ()) to @callee_owned (@in (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;)) -&gt; (@out ())"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395096.075874"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ()) to @callee_unowned @objc_block (@unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ())"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395096.076169"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InstaLike/Network.swift"
-            timestampString = "434395109.372186"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "getTagsForCategory(category:)"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "getTagsForCategory(categoryTitlle:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "InstaLike.Network.getTagsForCategory (InstaLike.Network)(category : Swift.String) -&gt; ()"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395109.373548"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "668">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "InstaLike.Network.(getTagsForCategory (InstaLike.Network) -&gt; (category : Swift.String) -&gt; ()).(closure #1)"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395109.373718"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "23">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ()) to @callee_owned (@in (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;)) -&gt; (@out ())"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395109.373879"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@in (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;)) -&gt; (@out ()) to @callee_owned (@owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ())"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395109.37402"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @owned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ()) to @callee_unowned @objc_block (@unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURL&gt;, @unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSURLResponse&gt;, @unowned Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; (@unowned ())"
-                  moduleName = "InstaLike"
-                  urlString = "file:///Users/georgysavatkov/InstaLike/InstaLike/Network.swift"
-                  timestampString = "434395109.374182"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaLike/ViewControllers.swift"
+            timestampString = "434455908.391715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "loadDataModel()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -55,7 +55,7 @@ class CategoriesViewController: UIViewController, UICollectionViewDelegate {
             var vc = segue.destinationViewController as TagsViewController
             var cell = sender as UICollectionViewCell
             var index = categoriesCollectionView.indexPathForCell(cell)
-            vc.categoryTitle = testFileSystem.Categories[index!.row].Title
+            vc.category = testFileSystem.Categories[index!.row]
         }
     }
     
@@ -74,22 +74,21 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         self.backBtn.layer.borderWidth = 0.8
         self.backBtn.layer.borderColor = UIColor.whiteColor().CGColor
+        
+        loadDataModel()
+        dispatch_async(dispatch_get_main_queue(), {() -> Void in
+            self.headerImageView.image = UIImage(named: self.category!.Image)
+            self.headerTitleLabel.text = self.category!.Title
+        })
+        
     }
     
     var categoryTitle: String = ""
     
     var category: Category?
     
-    override func viewWillAppear(animated: Bool) {
-        loadDataModel()
-//        dispatch_async(dispatch_get_main_queue(), {() -> Void in
-//            self.headerImageView.image = UIImage(named: self.category!.Image)
-//            self.headerTitleLabel.text = self.category!.Title
-//        })
-    }
-    
     func loadDataModel() {
-         Network().getTagsForCategory(category: self.categoryTitle)
+        getTagsForCategory(categoryTitlle: self.category!.Title)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell! {
@@ -117,4 +116,43 @@ class TagsViewController: UIViewController, UITableViewDelegate {
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
     }
+    
+    
+    func getTagsForCategory(#categoryTitlle: String) {
+        let URL = NSURL(string: "http://localhost:8888/TagsServer/getTags.php?category=\(categoryTitlle.lowercaseString)")
+        
+        var TagsSets: [TagsSet] = [TagsSet]()
+        var output = NSMutableArray()
+        
+        let sharedSession = NSURLSession.sharedSession()
+        
+        let downloadTask: NSURLSessionDownloadTask = sharedSession.downloadTaskWithURL(URL, completionHandler: { (location: NSURL!, response: NSURLResponse!, error: NSError!) -> Void in
+            
+            if error == nil {
+                let dataObject = NSData(contentsOfURL: location)
+                let tagsSetsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(dataObject, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+                self.category?.TagSets = self.jsonToCategory(tagsSetsDictionary) as [TagsSet]
+                self.tagsTableViewController.reloadData()
+                println("!")
+                
+            }
+            else {
+                println(error)
+            }
+        })
+        downloadTask.resume()
+        println("Done")
+        
+    }
+    
+    func jsonToCategory(json: NSDictionary) -> AnyObject {
+        var output: NSMutableArray = NSMutableArray()
+        for item in json["result"]! as NSMutableArray {
+            println("New object: \n\(item)")
+            output.addObject(TagsSet(tags: item["tags"] as String))
+        }
+        
+        return output
+    }
+
 }
